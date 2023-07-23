@@ -7,8 +7,8 @@ private static class NumObj {
         private byte target;
         private byte count;
         public NumObj(int target, int count) {
-            this.target = (byte) target;
-            this.count = (byte) count;
+                this.target = (byte) target;
+                this.count = (byte) count;
         }
-    }
+}
 ```
