@@ -16,7 +16,7 @@ public class MySequenceTest {
     }
     @Test
     public void outOfBoundsTest3() {
-        assertEquals(mySequence.calculate(100), "-1");
+        assertEquals(mySequence.calculate(50), "-1");
     }
 
     /* test */
@@ -39,6 +39,10 @@ public class MySequenceTest {
     @Test
     public void test5() {
         assertEquals(mySequence.calculate(8), "21");
+    }
+    @Test(timeout = 1000)
+    public void test6() {
+        assertEquals(mySequence.calculate(24), "?");
     }
 
     /* memo */
